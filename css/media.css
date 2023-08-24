@@ -242,6 +242,7 @@
     .navbar-nav {
         background: linear-gradient(to right, #09052f, #311d5e);
         text-align: center;
+        z-index: 33333;
     }
 
     .home_content p {
@@ -317,7 +318,7 @@
 
     .footer_content_two h3 {
         padding-bottom: 20px;
-        padding: auto;
+        padding-left: 0;
         margin-top: 30px;
     }
 
@@ -328,7 +329,7 @@
 
     .footer_content_three h3 {
         padding-bottom: 20px;
-        padding-left: 80px;
+        padding-left: 0;
         margin-top: 30px;
     }
 
@@ -341,6 +342,10 @@
     }
 
     .back-to-top {
-        bottom: 5px;
+        right: 10px;
+        bottom: 10px;
+    }
+    .back-to-top i {
+        font-size: 40px;
     }
 }
