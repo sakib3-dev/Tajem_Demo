@@ -1,0 +1,346 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    textarea {
+        width: 100%;
+    }
+
+    .expertise_content p {
+        padding: 0 50px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-toggler {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background: linear-gradient(to right, #09052f, #311d5e);
+        text-align: center;
+    }
+
+    .home_content p {
+        text-align: center;
+        padding: 0;
+    }
+
+    .story_content {
+        text-align: center;
+    }
+
+    .story_img {
+        margin-bottom: 50px;
+    }
+
+    .expertise_content p {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .team_item {
+        margin-bottom: 30px;
+    }
+
+    .work_item {
+        width: 30%;
+        margin-right: 1.665%;
+        margin-left: 1.665%;
+        margin-bottom: 10px;
+    }
+
+    .feedback_text p {
+        padding: 0;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    form .link_btn {
+        margin-bottom: 30px;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+
+    #sponsor_left {
+        width: 50%;
+    }
+
+    #sponsor_left img {
+        width: 55%;
+    }
+
+    #sponsor_right {
+        width: 50%;
+    }
+
+    #sponsor_right img {
+        width: 55%;
+    }
+
+
+    .footer_content_one {
+        text-align: left;
+    }
+
+    .footer_content_two {
+        text-align: left;
+    }
+
+    .footer_content_two h3 {
+        padding-bottom: 20px;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .footer_content_three h3 {
+        padding-bottom: 20px;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .copyright p {
+        padding-left: 35%;
+    }
+
+    .footer_content_two p {
+        padding: 0 2px;
+    }
+
+    .call_btn {
+        margin-left: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-toggler {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background: linear-gradient(to right, #09052f, #311d5e);
+        text-align: center;
+    }
+
+    .home_content p {
+        text-align: center;
+        padding: 0;
+    }
+
+    .story_content {
+        text-align: center;
+    }
+
+    .story_img {
+        margin-bottom: 50px;
+    }
+
+    .expertise_content p {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .team_item {
+        margin-bottom: 30px;
+    }
+
+    .work_item {
+        width: 30%;
+        margin-right: 1.665%;
+        margin-left: 1.665%;
+        margin-bottom: 10px;
+    }
+
+    .feedback_text p {
+        padding: 0;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    form .link_btn {
+        margin-bottom: 30px;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+
+    #sponsor_left {
+        width: 50%;
+    }
+
+    #sponsor_left img {
+        width: 65%;
+    }
+
+    #sponsor_right {
+        width: 50%;
+    }
+
+    #sponsor_right img {
+        width: 65%;
+    }
+
+
+    .footer_content_one {
+        text-align: left;
+    }
+
+    .footer_content_two {
+        text-align: left;
+    }
+
+    .footer_content_two h3 {
+        padding-bottom: 20px;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .footer_content_three h3 {
+        padding-bottom: 20px;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .copyright p {
+        padding-left: 0;
+    }
+
+    .footer_content_two p {
+        padding: 0 2px;
+    }
+
+    .call_btn {
+        margin-left: 0;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+
+    .navbar-toggler {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background: linear-gradient(to right, #09052f, #311d5e);
+        text-align: center;
+    }
+
+    .home_content p {
+        text-align: center;
+        padding: 0;
+    }
+
+    .story_content {
+        text-align: center;
+    }
+
+    .story_img {
+        margin-bottom: 50px;
+    }
+
+    .expertise_content p {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .team_item {
+        margin-bottom: 30px;
+    }
+
+    .filler_btn button {
+        margin-bottom: 10px;
+    }
+
+    .work_item {
+        width: 30%;
+        margin-right: 1.665%;
+        margin-left: 1.665%;
+        margin-bottom: 10px;
+    }
+
+    .feedback_text p {
+        padding: 0;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    form .link_btn {
+        margin-bottom: 30px;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+
+    #sponsor_left img {
+        width: 95px;
+        padding: 0 10px;
+    }
+
+    #sponsor_right img {
+        width: 95px;
+        padding: 0 10px;
+    }
+
+
+    .footer_content_one {
+        text-align: center;
+    }
+
+    .footer_menu button {
+        width: 95px;
+        padding: 0;
+        font-size: 9px;
+    }
+
+    .footer_content_two h3 {
+        padding-bottom: 20px;
+        padding: auto;
+        margin-top: 30px;
+    }
+
+    .call_btn  {
+        margin-left: 0px;
+    }
+
+
+    .footer_content_three h3 {
+        padding-bottom: 20px;
+        padding-left: 80px;
+        margin-top: 30px;
+    }
+
+    .copyright p {
+        padding-left: 14%;
+    }
+
+    .footer_content_two p {
+        padding: 0 2px;
+    }
+
+    .back-to-top {
+        bottom: 5px;
+    }
+}
